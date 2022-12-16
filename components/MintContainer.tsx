@@ -27,7 +27,7 @@ export default function MintContainer() {
           contractAddress={CHARACTER_EDITION_ADDRESS}
           action={(contract) => contract.erc1155.claim(0, 1)}
         >
-          Mint 25 Matic
+          Mint 25 z1
         </Web3Button>
       </div>
     </div>
